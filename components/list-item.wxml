@@ -1,0 +1,13 @@
+<!--components/tabBar.wxml-->
+<text>components/tabBar.wxml</text>
+<view class="inner">
+  {{innerText}}
+</view>
+<view>
+{{sum}}
+</view>
+
+<view>
+<button bindtap="onTap">点击这个按钮将触发“myevent”事件</button>
+</view>
+<slot>slot</slot>

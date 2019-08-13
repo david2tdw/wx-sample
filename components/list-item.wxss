@@ -1,0 +1,4 @@
+/* components/tabBar.wxss */
+.inner {
+  color: red;
+}

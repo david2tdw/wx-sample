@@ -14,5 +14,14 @@ Page({
     })
     wx.setStorageSync('key', '123123')
     console.log('1231')
+  },
+  handleMyEventClick: function (e) {
+    console.log('2222')
+    console.log(e)
+  },
+  onMyEvent: function (e) {
+    e.detail // 自定义组件触发事件时提供的detail对象
   }
+  // methods: {
+  // }
 })
