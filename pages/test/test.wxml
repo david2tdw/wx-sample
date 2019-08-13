@@ -2,6 +2,6 @@
 <text>pages/test/test.wxml</text>
 <view>
   <view class="view-wrapper">
-    <text>aaaa</text>
+    <text>{{name}}</text>
   </view>
 </view>
