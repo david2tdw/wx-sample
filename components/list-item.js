@@ -27,7 +27,9 @@ Component({
   },
   /**
    * 组件的方法列表
+   * Component 构造器的主要区别是：方法需要放在 methods: {} 里面。
    */
+  
   methods: {
     customerMethod: function () {
       
