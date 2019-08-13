@@ -4,4 +4,7 @@
   <view class="view-wrapper">
     <text>{{name}}</text>
   </view>
+  <view wx:for="{{latestList}}" wx:key="{{item.id}}">
+    {{index}}: {{item.member.username}}
+  </view>
 </view>

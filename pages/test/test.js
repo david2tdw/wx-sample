@@ -4,7 +4,8 @@ var app = getApp();
 Page({
 
   data: {
-    name: 'aaa'
+    name: 'aaa',
+    latestList: []
   },
   onShow: function () {
     this.fetchList()
@@ -15,7 +16,8 @@ Page({
     // console.log(res)
     if (res.status === '0' || true) {
       that.setData({
-        name: 'xxx'
+        name: 'xxx',
+        latestList: res
       })
     }
     if (res.status !== '0') {
