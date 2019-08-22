@@ -11,22 +11,42 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "index",
-      "iconPath": "",
-      "selectedIconPath": ""
-    },{
-      "pagePath": "pages/logs/logs",
-      "text": "logs",
-      "iconPath": "",
-      "selectedIconPath": ""
-    },{
-      "pagePath": "pages/test/test",
-      "text": "test",
-      "iconPath": "",
-      "selectedIconPath": ""
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "logs",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "test",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "subPackages": [{
+    "root": "pages/enquiry",
+    "name": "enquiry",
+    "pages": [
+      "flc-enquiry/flc-enquiry",
+      "ls-enquiry/ls-enquiry"
+    ]
+  }],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "enquiry"
+      ]
+    }
   },
   "sitemapLocation": "sitemap.json"
 }
