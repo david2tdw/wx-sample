@@ -18,6 +18,9 @@
 6. 在 wxml 中直接使用组件
 <van-button type="primary">按钮</van-button>
 ```
-## Build Setup
+## push Setup
 
-
+```
+git remote add origin https://github.com/david2tdw/wx-sample.git
+git push -u origin master
+```
