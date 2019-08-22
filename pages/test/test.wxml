@@ -4,6 +4,7 @@
   <view class="view-wrapper">
     <text>{{name}}</text>
   </view>
+  <van-button type="primary">按钮</van-button>
   <view wx:for="{{latestList}}" wx:key="{{item.id}}">
     {{index}}: {{item.member.username}}
   </view>
